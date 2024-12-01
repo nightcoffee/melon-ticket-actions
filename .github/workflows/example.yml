@@ -10,8 +10,8 @@ jobs:
       - name: Check Tickets
         uses: nightcoffee/melon-ticket-actions@master
         with:
-          product-id: 204755
-          schedule-id: 100001
+          product-id: 210649
+          schedule-id: SC0002
           seat-id: 1_0
           slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           message: '<@U4CF18RKL> 티켓사세요'
