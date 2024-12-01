@@ -1,5 +1,6 @@
 name: example
 on:
+  push
   schedule:
     - cron: '*/5 * * * *' # Every 5 minutes
 jobs:
